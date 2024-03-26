@@ -11,7 +11,10 @@
     <div class="search">
         <input type="text" placeholder="enter city name"
         spellcheck = false>
-        <button><img src="images/search.png"></button>
+        <span><button><img src="images/search.png"></button></span>
+    </div>
+    <div class="error">
+        <p>Invalid city name.</p>
     </div>
     <div class="weather">
         <img src="images/rain.png" class="weather-icon">
@@ -35,9 +38,11 @@
         </div>
     </div>
 </div>
-
+<script src="weatherapp.js"></script>
 </body>
 </html>
 
+<!-- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} -->
+<!-- https://api.openweathermap.org/data/2.5/weather?q=Davis&appid=08d5be9acdb690b384b75638f470ea6e&units=metric -->
 
 <!-- https://www.youtube.com/watch?v=MIYQR-Ybrn4&list=PLjwm_8   O3suyOgDS_Z8AWbbq3zpCmR-WE9&index=2&ab_channel=GreatStack -->
